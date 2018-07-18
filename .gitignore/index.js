@@ -25,7 +25,7 @@ bot.on('ready', () => {
     console.log("Bot ready");
     })
 
-bot.login('NDY4MjI2NzE1MDA1NDg1MDc2.Di2Fvg.PDYUJ52GK4EKQJO0h2WV8mKonRM');
+bot.login('process.env.TOKEN');
 
 bot.on ('message', message => {
 
